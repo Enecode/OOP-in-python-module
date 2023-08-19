@@ -4,6 +4,20 @@
     This module is designed to help explorers determine if there is an impenetrable obstruction when digging to the core of the earth. It calculates the expected time for a machine to travel a certain distance and checks if the actual time exceeds the expected time by a specified threshold. If the actual time exceeds the expected time by the specified threshold, then there is an impenetrable obstruction. Otherwise, there is no impenetrable obstruction.
 </p>
 
+<h3>The Object-Oriented Programming (OOP) concept used in this module is encapsulation.</h3>
+
+<p>Encapsulation is one of the fundamental principles of OOP that involves bundling data (attributes) and methods (functions) that operate on that data into a single unit, known as a class. The class acts as a blueprint for creating objects that can store and manipulate data in a controlled manner.</p>
+
+<h3>In the code snippet:</h3>
+    
+```python   
+def is_impenetrable(expected_time, actual_time):
+    # ...
+```
+<p>
+Here, the code defines a function (<code>is_impenetrable</code>) that encapsulates (hide) the logic for determining whether there's an impenetrable obstruction based on the given parameters.
+</p>
+
 <h2>Usage</h2>
 <h3>Installation:</h3>
 
